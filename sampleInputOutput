@@ -1,0 +1,31 @@
+There are 9 nonterminal symbols.
+There are 17 rules in the CFG that follows.
+
+Start -> NounPhrase VerbPhrase
+NounPhrase -> AdjectiveLong Nouns
+NounPhrase -> Nouns
+Nouns -> Andrew
+Nouns -> Emily
+AdjectiveLong -> Adjectives
+AdjectiveLong -> Adjectives AdjectiveLong
+Adjectives -> Pretty
+Adjectives -> Nice
+Adjectives -> Awesome
+VerbPhrase -> Verbs AdverbLong
+Verbs -> speaks
+Verbs -> listens
+AdverbLong -> Adverbs
+AdverbLong -> AdverbLong Adverbs
+Adverbs -> quickly
+Adverbs -> slowly
+
+Sentences of length 3 or less are:
+
+Emily listens slowly
+Emily listens quickly
+Emily speaks slowly
+Emily speaks quickly
+Andrew listens slowly
+Andrew listens quickly
+Andrew speaks slowly
+Andrew speaks quickly
